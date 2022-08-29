@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+.info {
+	color: #FFF;
+	position: absolute;
+	padding: 20px 0 0 20px;
+}
+
+a {
+	color: inherit;
+}
+
+label {
+	cursor: pointer;
+}
+canvas {
+	cursor: grab;
+}
+canvas.-dragging {
+	cursor: grabbing;
+}
+canvas.-moving {
+	cursor: grabbing;
+}
+canvas.-zoomIn {
+	cursor: zoom-in;
+}
